@@ -612,6 +612,10 @@ components:
       - Unknown
       title: ConfirmedDiagnosisTumourEnum
       type: string
+    DOX:
+      type: 'null'
+      type: string
+      title: Date of Birth
     DateInterval:
       properties:
         day_interval:
@@ -948,9 +952,7 @@ components:
           - $ref: '#/components/schemas/DateInterval'
           - type: 'null'
         date_of_birth:
-          type: string
-          type: 'null'
-          title: Date of Birth
+          $ref: '#/components/schemas/DOX'
           # anyOf:
           # - $ref: '#/components/schemas/DateInterval'
           # - type: 'null'
