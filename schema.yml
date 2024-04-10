@@ -797,8 +797,8 @@ components:
           - type: 'null'
         date_of_birth:
           anyOf:
-            - type: string
-            - type: 'null'
+          - type: string
+          - type: 'null'
           title: Date of Birth
           # anyOf:
           # - $ref: '#/components/schemas/DateInterval'
@@ -873,8 +873,8 @@ components:
           - type: 'null'
         date_of_birth:
           anyOf:
-            - type: string
-            - type: 'null'
+          - type: string
+          - type: 'null'
           title: Date of Birth
           # anyOf:
           # - $ref: '#/components/schemas/DateInterval'
@@ -954,10 +954,9 @@ components:
           - type: 'null'
         date_of_birth:
           anyOf:
-            - type: string
-            - type: 'null'
+          - type: string
+          - type: 'null'
           title: Date of Birth
-
           # $ref: '#/components/schemas/DOX'
           # anyOf:
           # - $ref: '#/components/schemas/DateInterval'
