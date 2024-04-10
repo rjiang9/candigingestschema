@@ -612,10 +612,6 @@ components:
       - Unknown
       title: ConfirmedDiagnosisTumourEnum
       type: string
-    Dox:
-      -type: string
-      -type: 'null'
-      title: Date of Birth
     DateInterval:
       properties:
         day_interval:
@@ -797,8 +793,7 @@ components:
           - $ref: '#/components/schemas/DateInterval'
           - type: 'null'
         date_of_birth:
-          anyOf:
-          - $ref: '#/components/schemas/Dox'
+          - type: string
           - type: 'null'
           # anyOf:
           # - $ref: '#/components/schemas/DateInterval'
@@ -872,9 +867,11 @@ components:
           - $ref: '#/components/schemas/DateInterval'
           - type: 'null'
         date_of_birth:
-          anyOf:
-          - $ref: '#/components/schemas/Dox'
+          - type: string
           - type: 'null'
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         date_of_death:
           anyOf:
           - $ref: '#/components/schemas/DateInterval'
@@ -949,9 +946,11 @@ components:
           - $ref: '#/components/schemas/DateInterval'
           - type: 'null'
         date_of_birth:
-          anyOf:
-          - $ref: '#/components/schemas/Dox'
+          - type: string
           - type: 'null'
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         date_of_death:
           anyOf:
           - $ref: '#/components/schemas/DateInterval'
