@@ -616,7 +616,7 @@ components:
       anyof:
         - type: string
         - type: 'null'
-        title: Date of Birth
+      title: Date of Birth
     DateInterval:
       properties:
         day_interval:
