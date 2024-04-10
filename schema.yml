@@ -197,7 +197,7 @@ components:
           title: Submitter Treatment Id
         test_date:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         uuid:
           anyOf:
@@ -299,7 +299,7 @@ components:
           title: Submitter Treatment Id
         test_date:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
       required:
       - program_id
@@ -794,15 +794,15 @@ components:
           - type: 'null'
         date_alive_after_lost_to_followup:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         date_of_birth:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         date_of_death:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         date_resolution:
           anyOf:
@@ -866,15 +866,15 @@ components:
           - type: 'null'
         date_alive_after_lost_to_followup:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         date_of_birth:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         date_of_death:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         date_resolution:
           anyOf:
@@ -943,15 +943,15 @@ components:
           type: array
         date_alive_after_lost_to_followup:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         date_of_birth:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         date_of_death:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         date_resolution:
           anyOf:
@@ -1224,11 +1224,11 @@ components:
           title: Anatomic Site Progression Or Recurrence
         date_of_followup:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         date_of_relapse:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         disease_status_at_followup:
           anyOf:
@@ -1308,11 +1308,11 @@ components:
           title: Anatomic Site Progression Or Recurrence
         date_of_followup:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         date_of_relapse:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         disease_status_at_followup:
           anyOf:
@@ -1934,7 +1934,7 @@ components:
           title: Submitter Treatment Id
         test_date:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
       title: NestedBiomarkerSchema
       type: object
@@ -2037,11 +2037,11 @@ components:
           title: Anatomic Site Progression Or Recurrence
         date_of_followup:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         date_of_relapse:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         disease_status_at_followup:
           anyOf:
@@ -2193,7 +2193,7 @@ components:
           - type: 'null'
         date_of_diagnosis:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         followups:
           items:
@@ -2538,7 +2538,7 @@ components:
           type: array
         treatment_end_date:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         treatment_intent:
           anyOf:
@@ -2550,7 +2550,7 @@ components:
           - type: 'null'
         treatment_start_date:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         treatment_type:
           anyOf:
@@ -3122,7 +3122,7 @@ components:
           - type: 'null'
         date_of_diagnosis:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         laterality:
           anyOf:
@@ -3208,7 +3208,7 @@ components:
           - type: 'null'
         date_of_diagnosis:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DateYearMonth'
           - type: 'null'
         laterality:
           anyOf:
