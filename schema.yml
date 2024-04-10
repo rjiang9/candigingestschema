@@ -613,9 +613,8 @@ components:
       title: ConfirmedDiagnosisTumourEnum
       type: string
     Dox:
-      anyof:
-        - type: string
-        - type: 'null'
+      -type: string
+      -type: 'null'
       title: Date of Birth
     DateInterval:
       properties:
