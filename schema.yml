@@ -614,6 +614,7 @@ components:
       type: string
     DOX:
       type: string
+      type: 'null'
       title: Date of Birth
     DateInterval:
       properties:
@@ -797,6 +798,7 @@ components:
           - type: 'null'
         date_of_birth:
           type: string
+          type: 'null'
           title: Date of Birth
           # anyOf:
           # - $ref: '#/components/schemas/DateInterval'
@@ -871,6 +873,7 @@ components:
           - type: 'null'
         date_of_birth:
           type: string
+          type: 'null'
           title: Date of Birth
           # anyOf:
           # - $ref: '#/components/schemas/DateInterval'
