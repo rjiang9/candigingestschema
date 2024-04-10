@@ -197,8 +197,12 @@ components:
           title: Submitter Treatment Id
         test_date:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Test Date
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         uuid:
           anyOf:
           - type: string
@@ -299,8 +303,12 @@ components:
           title: Submitter Treatment Id
         test_date:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Test Date
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
       required:
       - program_id
       - submitter_donor_id
@@ -794,8 +802,12 @@ components:
           - type: 'null'
         date_alive_after_lost_to_followup:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Date Alive After Lost To Followup
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         date_of_birth:
           anyOf:
           - $ref: '#/components/schemas/DOX'
@@ -806,8 +818,12 @@ components:
           # - type: 'null'
         date_of_death:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Date of Death
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         date_resolution:
           anyOf:
           - maxLength: 32
@@ -870,8 +886,12 @@ components:
           - type: 'null'
         date_alive_after_lost_to_followup:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Date Alive After Lost To Followup
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         date_of_birth:
           anyOf:
           - $ref: '#/components/schemas/DOX'
@@ -882,8 +902,12 @@ components:
           # - type: 'null'
         date_of_death:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Date of Death
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         date_resolution:
           anyOf:
           - maxLength: 32
@@ -951,21 +975,28 @@ components:
           type: array
         date_alive_after_lost_to_followup:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Date Alive After Lost To Followup
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         date_of_birth:
           anyOf:
           - $ref: '#/components/schemas/DOX'
           - type: 'null'
           title: Date of Birth
-          # $ref: '#/components/schemas/DOX'
           # anyOf:
           # - $ref: '#/components/schemas/DateInterval'
           # - type: 'null'
         date_of_death:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Date of Death
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         date_resolution:
           anyOf:
           - maxLength: 32
@@ -1237,12 +1268,20 @@ components:
           title: Anatomic Site Progression Or Recurrence
         date_of_followup:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Date of Followup
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         date_of_relapse:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Date of Relapse
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         disease_status_at_followup:
           anyOf:
           - $ref: '#/components/schemas/DiseaseStatusFollowupEnum'
@@ -1321,12 +1360,20 @@ components:
           title: Anatomic Site Progression Or Recurrence
         date_of_followup:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Date of Followup
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         date_of_relapse:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Date of Relapse
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         disease_status_at_followup:
           anyOf:
           - $ref: '#/components/schemas/DiseaseStatusFollowupEnum'
@@ -1947,8 +1994,12 @@ components:
           title: Submitter Treatment Id
         test_date:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Test Date
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
       title: NestedBiomarkerSchema
       type: object
     NestedChemotherapySchema:
@@ -2050,12 +2101,20 @@ components:
           title: Anatomic Site Progression Or Recurrence
         date_of_followup:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Date of Followup
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         date_of_relapse:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Date of Relapse
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         disease_status_at_followup:
           anyOf:
           - $ref: '#/components/schemas/DiseaseStatusFollowupEnum'
@@ -2206,8 +2265,12 @@ components:
           - type: 'null'
         date_of_diagnosis:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Date of Diagnosis
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         followups:
           items:
             $ref: '#/components/schemas/NestedFollowUpSchema'
@@ -2551,8 +2614,12 @@ components:
           type: array
         treatment_end_date:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Treatment End Date
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         treatment_intent:
           anyOf:
           - $ref: '#/components/schemas/TreatmentIntentEnum'
@@ -2563,8 +2630,12 @@ components:
           - type: 'null'
         treatment_start_date:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Treatment Start Date
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         treatment_type:
           anyOf:
           - items:
@@ -3135,8 +3206,12 @@ components:
           - type: 'null'
         date_of_diagnosis:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Date of Diagnosis
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         laterality:
           anyOf:
           - $ref: '#/components/schemas/PrimaryDiagnosisLateralityEnum'
@@ -3221,8 +3296,12 @@ components:
           - type: 'null'
         date_of_diagnosis:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Date of Diagnosis
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         laterality:
           anyOf:
           - $ref: '#/components/schemas/PrimaryDiagnosisLateralityEnum'
@@ -5056,8 +5135,12 @@ components:
           type: string
         treatment_end_date:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Treatment End Date
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         treatment_intent:
           anyOf:
           - $ref: '#/components/schemas/TreatmentIntentEnum'
@@ -5068,8 +5151,12 @@ components:
           - type: 'null'
         treatment_start_date:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Treatment Start Date
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         treatment_type:
           anyOf:
           - items:
@@ -5150,8 +5237,12 @@ components:
           type: string
         treatment_end_date:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Treatment End Date
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         treatment_intent:
           anyOf:
           - $ref: '#/components/schemas/TreatmentIntentEnum'
@@ -5162,8 +5253,12 @@ components:
           - type: 'null'
         treatment_start_date:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+          title: Treatment Start Date
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         treatment_type:
           anyOf:
           - items:
