@@ -612,6 +612,13 @@ components:
       - Unknown
       title: ConfirmedDiagnosisTumourEnum
       type: string
+    DOX:
+      anyOf:
+      - maxLength: 5
+        pattern: ^[1|2]{1}[0-9]{3}-[0-1]{1}[0-9]{1}$
+        type: string
+      - type: 'null'
+      title: Date of X
     DateInterval:
       properties:
         day_interval:
@@ -794,8 +801,12 @@ components:
           - type: 'null'
         date_of_birth:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
+
+          # anyOf:
+          # - $ref: '#/components/schemas/DateInterval'
+          # - type: 'null'
         date_of_death:
           anyOf:
           - $ref: '#/components/schemas/DateInterval'
