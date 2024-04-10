@@ -2428,9 +2428,12 @@ components:
           title: Specimen Anatomic Location
         specimen_collection_date:
           anyOf:
-          - type: object
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
           title: Specimen Collection Date
+          # anyOf:
+          # - type: object
+          # - type: 'null'
         specimen_laterality:
           anyOf:
           - $ref: '#/components/schemas/SpecimenLateralityEnum'
@@ -4245,9 +4248,12 @@ components:
           title: Specimen Anatomic Location
         specimen_collection_date:
           anyOf:
-          - type: object
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
           title: Specimen Collection Date
+          # anyOf:
+          # - type: object
+          # - type: 'null'
         specimen_laterality:
           anyOf:
           - $ref: '#/components/schemas/SpecimenLateralityEnum'
@@ -4356,9 +4362,12 @@ components:
           title: Specimen Anatomic Location
         specimen_collection_date:
           anyOf:
-          - type: object
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
           title: Specimen Collection Date
+          # anyOf:
+          # - type: object
+          # - type: 'null'
         specimen_laterality:
           anyOf:
           - $ref: '#/components/schemas/SpecimenLateralityEnum'
