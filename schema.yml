@@ -803,7 +803,6 @@ components:
           anyOf:
           - $ref: '#/components/schemas/DOX'
           - type: 'null'
-
           # anyOf:
           # - $ref: '#/components/schemas/DateInterval'
           # - type: 'null'
@@ -877,7 +876,8 @@ components:
           - type: 'null'
         date_of_birth:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          # - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
         date_of_death:
           anyOf:
@@ -954,7 +954,8 @@ components:
           - type: 'null'
         date_of_birth:
           anyOf:
-          - $ref: '#/components/schemas/DateInterval'
+          # - $ref: '#/components/schemas/DateInterval'
+          - $ref: '#/components/schemas/DOX'
           - type: 'null'
         date_of_death:
           anyOf:
