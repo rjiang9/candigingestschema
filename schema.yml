@@ -953,6 +953,7 @@ components:
           - type: 'null'
         date_of_birth:
           $ref: '#/components/schemas/DOX'
+          type: 'null'
           # anyOf:
           # - $ref: '#/components/schemas/DateInterval'
           # - type: 'null'
