@@ -614,6 +614,7 @@ components:
       type: string
     DOX:
       type: string
+      maxLength: 7
     DateInterval:
       properties:
         day_interval:
