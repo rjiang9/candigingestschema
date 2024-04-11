@@ -1,0 +1,9 @@
+*.zip
+bak/
+test/
+tests/
+BAK/
+__*.*
+tmp/
+test.*
+*.swp
