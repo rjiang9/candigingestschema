@@ -11,7 +11,7 @@ test data issue was from the tests/katsu_ingest.py which failed in the validatio
 
 ```
 (candig) [rocky@candig-testing candigv2-ingest]$ pwd
-/home/rocky/CanDIGv2/lib/candig-ingest/candigv2-ingest
+/home/rocky/{CanDIGv2-INS-DIR}/lib/candig-ingest/candigv2-ingest
 (candig) [rocky@candig-testing candigv2-ingest]$ tree tests/
 tests/
 ├── BAK-clinical_ingest.json
